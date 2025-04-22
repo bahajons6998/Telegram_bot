@@ -27,12 +27,12 @@ bot.on("message", async (msg) => {
 
   if (text === "/start") return;
 
-  if (text.toLowerCase()=="ии") {
+  if (text?.toLowerCase()=="ии") {
     bot.sendMessage(
       chatId,
       "Интересная тема! Расскажи, как ты используешь ИИ в бизнесе? 💡"
     );
-  } else if (text.toLowerCase()=="бизнес") {
+  } else if (text?.toLowerCase()=="бизнес") {
     bot.sendMessage(
       chatId,
       "Интересная тема! Расскажи, как ты используешь ИИ в бизнесе? 💡"
